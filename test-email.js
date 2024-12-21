@@ -37,11 +37,6 @@ async function sendEmail(toEmail) {
     }
 }
 
-// Function to wait for specified time
-function wait(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
-
 // Function to get emails from MailCrab
 async function getEmails() {
     try {
@@ -82,10 +77,6 @@ async function runTest() {
         // Send email
         const testEmail = 'recipient@example.com';
         await sendEmail(testEmail);
-
-        // Wait for email to be processed
-        console.log('Waiting for email to be processed...');
-        await wait(3000);
 
         // Get all emails
         const emails = await getEmails();
