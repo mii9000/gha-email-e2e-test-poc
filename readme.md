@@ -1,3 +1,5 @@
+![Act CLI Output](act.png){width=600 height=400}
+
 # Email Testing Automation POC
 
 This repository demonstrates a proof of concept for implementing an email testing solution in automation workflows using MailCrab, a lightweight SMTP testing server.
