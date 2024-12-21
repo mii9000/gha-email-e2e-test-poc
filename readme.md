@@ -1,4 +1,4 @@
-![Act CLI Output](act.png){width=600 height=400}
+![Act CLI Output](act.png)
 
 # Email Testing Automation POC
 
